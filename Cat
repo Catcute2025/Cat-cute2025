@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ช่วยเหลือน้องแมวจร</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>ช่วยเหลือน้องแมวจร</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">หน้าแรก</a></li>
+          <li><a href="#about">เกี่ยวกับเรา</a></li>
+          <li><a href="#cats">น้องแมวที่รอช่วยเหลือ</a></li>
+          <li><a href="#donate">บริจาค</a></li>
+          <li><a href="#contact">ติดต่อเรา</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="section">
+    <div class="container">
+      <h2>ร่วมสร้างชีวิตใหม่ให้น้องแมว</h2>
+      <p>เว็บไซต์นี้จัดทำขึ้นเพื่อช่วยเหลือน้องแมวจรที่ต้องการบ้านและความอบอุ่น</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>เกี่ยวกับเรา</h2>
+      <p>เราเป็นกลุ่มคนรักแมวที่ต้องการช่วยเหลือน้องแมวจรที่ไม่มีบ้านและต้องการการดูแล</p>
+    </div>
+  </section>
+
+  <section id="cats" class="section">
+    <div class="container">
+      <h2>น้องแมวที่รอความช่วยเหลือ</h2>
+      <div class="cat-list">
+        <div class="cat-item">
+          <img src="cat1.jpg" alt="น้องแมวชื่อมะลิ">
+          <p>มะลิ - อายุ 2 เดือน ต้องการรักษาอาการป่วย</p>
+        </div>
+        <div class="cat-item">
+          <img src="cat2.jpg" alt="น้องแมวชื่อข้าวปั้น">
+          <p>ข้าวปั้น - อายุ 3 เดือน กำลังมองหาบ้านที่อบอุ่น</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="donate" class="section">
+    <div class="container">
+      <h2>ร่วมบริจาค</h2>
+      <p>สามารถบริจาคผ่าน QR Code หรือบัญชีธนาคาร</p>
+      <img src="qrcode.jpg" alt="QR Code สำหรับการบริจาค">
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>ติดต่อเรา</h2>
+      <p>อีเมล: helpcats@gmail.com</p>
+      <p>โทร: 081-234-5678</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 ช่วยเหลือน้องแมวจร | สร้างด้วยใจเพื่อแมวจร</p>
+    </div>
+  </footer>
+</body>
+</html>
